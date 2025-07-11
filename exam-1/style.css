@@ -60,6 +60,11 @@ ul li{
     height: 48px;
     padding: 12px 36px;
     box-sizing: border-box;
+    transition: 1s;
+  }
+  ul li:hover{
+    cursor: pointer;
+    background: darkblue;
   }
   a{
     text-decoration: none;
@@ -95,6 +100,11 @@ ul li{
     padding-top: 15px;
     border-radius: 15px;
     /* padding: 15px 50PX; */
+    transition: 1s;
+}
+.small:hover{
+  cursor: pointer;
+  background: blueviolet;
 }
                /* section-1-desing */
 .parent{
@@ -135,6 +145,11 @@ background: #4E47FF;
     border-radius: 15px;
     text-align: center;
     box-sizing: border-box;
+    transition: 1.5s;
+}
+.about:hover{
+  background: darkblue;
+  cursor: pointer;
 }
 .imgs{
   width: 403px;
@@ -183,7 +198,12 @@ position: relative;
    font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #4E47FF;
+  transition: 1.8s;
   
+ }
+ .parent-child:hover{
+  cursor: pointer;
+  background: rgb(66, 66, 190);
  }
  .pop{
   text-transform: uppercase;
@@ -352,7 +372,12 @@ textarea{
     color: #ffffFF;
   height: 48px;
   border-radius: 8px;
+  transition: 1.5s;
   
+}
+.small2:hover{
+  cursor: pointer;
+  background: darkblue;
 }
 .small2>h6{
    font-size: 16px;
