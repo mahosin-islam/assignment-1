@@ -4,11 +4,6 @@
   font-weight: 500;
   font-style: normal;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 /* roboto -font */
 
 .roboto-style {
@@ -28,7 +23,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 789px;
   margin-top: 0;
 }
 
@@ -36,20 +31,24 @@ nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 90%;
-  margin: 0 auto;
-  align-items: center;
-  height: 90px;
+  /* margin: 150PX 50PX; */
 }
 nav h3 {
-  box-sizing: border-box;
   color: #4e47ff;
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
+  /* font-family: "Roboto", sans-serif; */
+  margin-top: 50px;
+  margin-left: 150px;
 }
-
-.btr {
+ul {
+  list-style: none;
+  margin-right: 150px;
+  margin-top: 50px;
+  align-content: center;
+}
+ul li {
   display: inline-block;
   align-content: center;
   background: #4e47ff;
@@ -59,20 +58,24 @@ nav h3 {
   padding: 12px 36px;
   box-sizing: border-box;
   transition: 1s;
-  color: #ffffff;
 }
-.btr:hover {
+ul li:hover {
   cursor: pointer;
   background: darkblue;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
 }
 /* bannar-desin */
 .bannar {
   width: 905px;
   height: 300px;
-  margin: 160px auto 72px auto;
+  margin: 260px auto 172px auto;
   /* border: 1px solid red */
 }
-.bannar-h {
+h1 {
   font-size: 65px;
   font-weight: bold;
   color: #252432;
@@ -81,6 +84,7 @@ nav h3 {
   font-weight: 800;
 }
 .small {
+  box-sizing: border-box;
   margin: auto auto;
   text-align: center;
   background: #4e47ff;
@@ -92,18 +96,21 @@ nav h3 {
   font-weight: 900;
   padding-top: 15px;
   border-radius: 15px;
+  /* padding: 15px 50PX; */
   transition: 1s;
 }
 .small:hover {
   cursor: pointer;
   background: blueviolet;
 }
-/*section-1-desing */
+/* section-1-desing */
 .parent {
   height: 328px;
   margin: 116px 160px 116px 140px;
+  /* border:  1px solid salmon; */
   display: flex;
   justify-content: space-between;
+  /* border: 1px solid blue; */
 }
 .contain {
   width: 517px;
@@ -115,24 +122,22 @@ nav h3 {
 }
 h2 {
   font-size: 45px;
-  font-weight: 700;
-  margin-top: 10px;
+  font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
 .dark {
   color: #777777;
   font-size: 24px;
-  margin-top: 30px;
 }
 .about {
-  margin-top: 30px;
   background: #4e47ff;
   color: #ffffff;
   width: 229px;
   height: 48px;
-  padding: 10px 10px;
+  padding: auto 10px auto 10px;
   font-size: 16px;
   font-weight: bold;
+  padding-top: 12px;
   border-radius: 15px;
   text-align: center;
   box-sizing: border-box;
@@ -151,7 +156,7 @@ h2 {
 .desh {
   width: 1140px;
   height: 306px;
-  margin: 100px auto;
+  margin: 138px auto auto auto;
   background: #bbbae1;
   border-radius: 30px;
   padding-top: 10px;
@@ -161,22 +166,22 @@ h4 {
   font-size: 38px;
   font-weight: bold;
   color: black;
-  margin-top: 20px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
+/* section-2-deisng */
 .elder {
   width: 856px;
   height: 121px;
   margin: 0 auto;
   display: flex;
-  margin-top: 20px;
   justify-content: space-between;
 }
 .child {
   height: 121px;
   width: 250px;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   padding-bottom: 5px;
   position: relative;
@@ -201,13 +206,10 @@ h4 {
   left: 5px;
 }
 /* section-3-desing== */
-.big {
-  margin-bottom: 40px;
-}
 .hover-service {
   height: 342px;
   width: 1140px;
-  margin: 10px auto;
+  margin: 0 auto;
   background: #ffffff;
 }
 .old-contain {
@@ -217,17 +219,16 @@ h4 {
 .mothe {
   padding-top: 40px auto auto 0;
   box-sizing: border-box;
-  height: 230px;
+  height: 220px;
   width: 366px;
-  box-shadow: 10px 5px 10px rgb(160, 160, 188);
+  box-shadow: 10px 5px 8px #f2eded;
   border-radius: 8px;
-  border: 1px solid #777777;
+  /* border: 1px solid red; */
   padding-top: 40px;
 }
 b {
   font-size: 20px;
   font-weight: 700;
-  line-height: 30px;
   font-family: "Open Sans", sans-serif;
 }
 .pop {
@@ -258,8 +259,8 @@ p {
   border-radius: 12px;
   margin: 5px 8px;
 }
-/* <section-4-desig */
-.bannar-center {
+/* <section-5-desig */
+.contain-area {
   width: 1140px;
   height: 698px;
   margin: 100px auto;
@@ -268,21 +269,23 @@ p {
   padding-top: 20px;
   border-radius: 20px;
 }
-.banana-center-tx {
-  text-align: center;
-  width: 600px;
-  margin: 50px auto;
+.position {
+  align-items: center;
+  /* margin: 10px auto; */
+  margin-left: 370px;
 }
-.cart {
-  margin-bottom: 10px;
-  color: #777777;
+.large {
+  width: 200px;
 }
-.banana-center-img {
-  width: 100%;
-  height: auto;
+.shavi {
+  width: 840px;
+  height: 360px;
   margin: auto 150px;
 }
-
+.namee {
+  border-radius: 30px;
+  margin-top: 20px;
+}
 /* footer-area-desing*/
 .from {
   width: 1140px;
@@ -312,12 +315,12 @@ p {
   height: 590px;
   width: 500px;
   margin: 40px 0 auto auto;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 input {
   background: #ffffff;
   box-shadow: 5px 10px 10px #f2eded;
-  width: 99%;
+  width: 98%;
   height: 70px;
   text-align: center;
   border-radius: 8px;
@@ -328,9 +331,8 @@ textarea {
   /* border: 1px solid #ffffFF; */
   box-shadow: 5px 5px 10px #f2eded;
   background: #ffffff;
+  width: 100%;
   border-radius: 8px;
-  width: 95%;
-  margin-left: 0;
   margin-top: 10px;
 }
 #area {
@@ -364,10 +366,10 @@ input {
 }
 /* footer-area */
 .foot {
-  width: 800px;
+  width: 453px;
   height: 241px;
-  margin: 50px auto;
-  text-align: center;
+  /* margin: 104px 455px 103px 154; */
+  margin: 90px auto;
   /* border: 1px solid blue; */
 }
 
@@ -377,19 +379,16 @@ input {
   font-weight: bold;
   color: #4e47ff;
   font-family: "Open Sans", sans-serif;
-  font-weight: 70px;
+  font-weight: 700;
 }
 .only {
   text-align: center;
-  width: 100%;
 }
 .sad {
-  margin-top: 20px;
   display: flex;
   text-align: center;
   gap: 20px;
   text-indent: 50px;
-  align-items: center;
 }
 .user {
   text-align: center;
@@ -397,8 +396,8 @@ input {
 }
 .user > a {
   color: black;
-  text-decoration: none;
 }
+
 .banana {
   width: 100%;
   height: 200px;
@@ -406,6 +405,7 @@ input {
 
 #apple {
   text-align: center;
+  color: red;
   margin: 60px 600px;
   font-size: 40px;
   padding: 6px 20px;
