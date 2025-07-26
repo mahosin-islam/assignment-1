@@ -5,6 +5,9 @@
   font-style: normal;
 }
 /* roboto -font */
+body {
+  overflow-x: hidden;
+}
 
 .roboto-style {
   font-family: "Roboto", sans-serif;
